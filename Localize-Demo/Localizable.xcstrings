@@ -1,7 +1,8 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "%lld views" : {
+    "%lld points" : {
+      "comment" : "Points string",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -10,13 +11,19 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "only one view"
+                  "value" : "%lld point"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "new",
-                  "value" : "%lld views"
+                  "value" : "%lld points"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zero points"
                 }
               }
             }
@@ -27,14 +34,20 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "une seule vue"
+                  "state" : "new",
+                  "value" : "%lld point"
                 }
               },
               "other" : {
                 "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld points"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld vues"
+                  "value" : "Zéro points"
                 }
               }
             }
