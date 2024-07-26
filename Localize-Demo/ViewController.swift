@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     @IBOutlet weak var displayLabel: UILabel!
     @IBOutlet weak var countLabel: UILabel!
     
